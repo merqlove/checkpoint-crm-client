@@ -5,7 +5,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **Integer** |  | [optional] 
-**name** | **String** |  | 
+**name** | **String** |  | [optional] 
 **value** | **String** |  | [optional] 
 
 ## Code Sample
