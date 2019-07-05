@@ -61,6 +61,11 @@ CheckpointCrmClient.configure do |config|
   # Configure HTTP basic authorization: Basic
   config.username = 'YOUR_USERNAME'
   config.password = 'YOUR_PASSWORD'
+
+  # Configure API key authorization: Token
+  config.api_key['Authorization'] = 'YOUR API KEY'
+  # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
+  #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
 api_instance = CheckpointCrmClient::AccountOperationsApi.new
@@ -209,4 +214,11 @@ Class | Method | HTTP request | Description
 ### Basic
 
 - **Type**: HTTP basic authentication
+
+### Token
+
+
+- **Type**: API key
+- **API key parameter name**: Authorization
+- **Location**: HTTP header
 

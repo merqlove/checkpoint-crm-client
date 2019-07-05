@@ -31,6 +31,11 @@ CheckpointCrmClient.configure do |config|
   # Configure HTTP basic authorization: Basic
   config.username = 'YOUR USERNAME'
   config.password = 'YOUR PASSWORD'
+
+  # Configure API key authorization: Token
+  config.api_key['Authorization'] = 'YOUR API KEY'
+  # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
+  #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
 api_instance = CheckpointCrmClient::TiersApi.new
@@ -57,7 +62,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Basic](../README.md#Basic)
+[Basic](../README.md#Basic), [Token](../README.md#Token)
 
 ### HTTP request headers
 
@@ -83,6 +88,11 @@ CheckpointCrmClient.configure do |config|
   # Configure HTTP basic authorization: Basic
   config.username = 'YOUR USERNAME'
   config.password = 'YOUR PASSWORD'
+
+  # Configure API key authorization: Token
+  config.api_key['Authorization'] = 'YOUR API KEY'
+  # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
+  #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
 api_instance = CheckpointCrmClient::TiersApi.new
@@ -108,7 +118,7 @@ nil (empty response body)
 
 ### Authorization
 
-[Basic](../README.md#Basic)
+[Basic](../README.md#Basic), [Token](../README.md#Token)
 
 ### HTTP request headers
 
@@ -134,6 +144,11 @@ CheckpointCrmClient.configure do |config|
   # Configure HTTP basic authorization: Basic
   config.username = 'YOUR USERNAME'
   config.password = 'YOUR PASSWORD'
+
+  # Configure API key authorization: Token
+  config.api_key['Authorization'] = 'YOUR API KEY'
+  # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
+  #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
 api_instance = CheckpointCrmClient::TiersApi.new
@@ -162,7 +177,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Basic](../README.md#Basic)
+[Basic](../README.md#Basic), [Token](../README.md#Token)
 
 ### HTTP request headers
 
@@ -188,6 +203,11 @@ CheckpointCrmClient.configure do |config|
   # Configure HTTP basic authorization: Basic
   config.username = 'YOUR USERNAME'
   config.password = 'YOUR PASSWORD'
+
+  # Configure API key authorization: Token
+  config.api_key['Authorization'] = 'YOUR API KEY'
+  # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
+  #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
 api_instance = CheckpointCrmClient::TiersApi.new
@@ -216,7 +236,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Basic](../README.md#Basic)
+[Basic](../README.md#Basic), [Token](../README.md#Token)
 
 ### HTTP request headers
 
@@ -242,6 +262,11 @@ CheckpointCrmClient.configure do |config|
   # Configure HTTP basic authorization: Basic
   config.username = 'YOUR USERNAME'
   config.password = 'YOUR PASSWORD'
+
+  # Configure API key authorization: Token
+  config.api_key['Authorization'] = 'YOUR API KEY'
+  # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
+  #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
 api_instance = CheckpointCrmClient::TiersApi.new
@@ -268,7 +293,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Basic](../README.md#Basic)
+[Basic](../README.md#Basic), [Token](../README.md#Token)
 
 ### HTTP request headers
 
@@ -294,6 +319,11 @@ CheckpointCrmClient.configure do |config|
   # Configure HTTP basic authorization: Basic
   config.username = 'YOUR USERNAME'
   config.password = 'YOUR PASSWORD'
+
+  # Configure API key authorization: Token
+  config.api_key['Authorization'] = 'YOUR API KEY'
+  # Uncomment the following line to set a prefix for the API key, e.g. 'Bearer' (defaults to nil)
+  #config.api_key_prefix['Authorization'] = 'Bearer'
 end
 
 api_instance = CheckpointCrmClient::TiersApi.new
@@ -322,7 +352,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[Basic](../README.md#Basic)
+[Basic](../README.md#Basic), [Token](../README.md#Token)
 
 ### HTTP request headers
 
