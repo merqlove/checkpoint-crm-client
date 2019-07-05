@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **card_id** | **Integer** |  | [optional] 
 **card_no** | **String** |  | [optional] 
 **promo_code** | **String** |  | [optional] 
-**name** | **String** |  | 
+**name** | **String** |  | [optional] 
 **notes** | **String** |  | [optional] 
 **type** | **String** | booking, medical history etc. | [optional] 
 **date_start** | **DateTime** |  | 
