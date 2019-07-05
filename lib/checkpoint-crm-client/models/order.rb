@@ -335,10 +335,6 @@ module CheckpointCrmClient
         invalid_properties.push('invalid value for "name", the character length must be smaller than or equal to 256.')
       end
 
-      if !@name.nil? && @name.to_s.length < 1
-        invalid_properties.push('invalid value for "name", the character length must be great than or equal to 1.')
-      end
-
       if !@type.nil? && @type.to_s.length > 256
         invalid_properties.push('invalid value for "type", the character length must be smaller than or equal to 256.')
       end
@@ -398,7 +394,6 @@ module CheckpointCrmClient
       return false if !@card_no.nil? && @card_no.to_s.length < 1
       return false if !@promo_code.nil? && @promo_code.to_s.length > 64
       return false if !@name.nil? && @name.to_s.length > 256
-      return false if !@name.nil? && @name.to_s.length < 1
       return false if !@type.nil? && @type.to_s.length > 256
       return false if @date_start.nil?
       return false if @external_id.nil?
@@ -455,10 +450,6 @@ module CheckpointCrmClient
     def name=(name)
       if !name.nil? && name.to_s.length > 256
         fail ArgumentError, 'invalid value for "name", the character length must be smaller than or equal to 256.'
-      end
-
-      if !name.nil? && name.to_s.length < 1
-        fail ArgumentError, 'invalid value for "name", the character length must be great than or equal to 1.'
       end
 
       @name = name
